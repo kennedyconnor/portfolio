@@ -1,5 +1,5 @@
 <template>
-  <div class="resume">
+  <div class="resume" id="resume">
     <h1>My Resume</h1>
 
   </div>
