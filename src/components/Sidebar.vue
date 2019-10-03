@@ -1,10 +1,6 @@
 <template>
   <div id="sidebar">
-    <div>
-      <h1>Connor Kennedy</h1>
-
-    </div>
-
+    asdfsadf
   </div>
 </template>
 
@@ -20,5 +16,9 @@
   }
 </script>
 <style>
-
+  #sidebar {
+    height: 100vh;
+    background-color: antiquewhite;
+    color: black;
+  }
 </style>

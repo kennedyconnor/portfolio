@@ -1,9 +1,7 @@
 <template>
-  <div class="col-3" id="aboutMe">
-    <div>
-      <h1>Connor Kennedy</h1>
-
-    </div>
+  <div id="aboutMe">
+    <h3>Connor Kennedy</h3>
+    <h5>Fullstack Software Developer</h5>
 
   </div>
 </template>
