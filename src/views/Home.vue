@@ -1,8 +1,7 @@
 <template>
   <div class="row" id="home">
-    <div class="col">
-      <h1>Connor Kennedy</h1>
-
+    <div class="col-3">
+      <Sidebar />
     </div>
 
   </div>
@@ -11,11 +10,11 @@
 <script>
   // @ is an alias to /src
 
-
+  import Sidebar from '@/components/Sidebar.vue'
   export default {
     name: 'home',
     components: {
-
+      Sidebar,
     }
   }
 </script>
