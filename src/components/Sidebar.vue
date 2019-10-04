@@ -18,7 +18,7 @@
 <style>
   #sidebar {
     height: 100vh;
-    background-color: whitesmoke;
-    color: black;
+    background-color: rgb(55, 211, 151);
+    color: white;
   }
 </style>
