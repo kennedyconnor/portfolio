@@ -1,9 +1,20 @@
 <template>
   <div class="col" id="skills">
-    <div>
-      <h3>skills</h3>
-
+    <h3>skills</h3>
+    <div class="row">
+      <div class="col-3">Skill</div>
+      <div class="col-3">Skill</div>
+      <div class="col-3">Skill</div>
+      <div class="col-3">Skill</div>
     </div>
+    <div class="row">
+      <div class="col-3">Skill</div>
+      <div class="col-3">Skill</div>
+      <div class="col-3">Skill</div>
+      <div class="col-3">Skill</div>
+    </div>
+
+
 
   </div>
 </template>
