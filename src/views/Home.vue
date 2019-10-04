@@ -1,8 +1,6 @@
 <template>
   <div class="row" id="home">
-    <div class="col-3">
-      <Sidebar />
-    </div>
+    <Sidebar />
     <div class="col-9">
       <AboutMe />
     </div>
