@@ -1,7 +1,7 @@
 <template>
-  <div class="col-3" id="skills">
+  <div class="col" id="skills">
     <div>
-      <h1>Connor Kennedy</h1>
+      <h3>skills</h3>
 
     </div>
 
@@ -20,5 +20,7 @@
   }
 </script>
 <style>
-
+  #skills {
+    text-align: justify;
+  }
 </style>

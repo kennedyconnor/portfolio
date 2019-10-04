@@ -1,8 +1,13 @@
 <template>
   <div class="row" id="home">
     <Sidebar />
-    <div class="col-9">
-      <AboutMe />
+    <div class="col-8 offset-1">
+      <div class="row">
+        <AboutMe />
+      </div>
+      <div class="row">
+        <Skills />
+      </div>
     </div>
   </div>
 </template>
