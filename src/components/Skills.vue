@@ -3,59 +3,87 @@
     <h3>skills</h3>
     <div class="row">
       <div class="col-3">
-        <div class="card" style="width: 18rem;">
-          <img src="..." class="card-img-top" alt="...">
+        <div class="card">
+          <img src="https://place-hold.it/100x100" class="card-img-top" alt="">
           <div class="card-body">
-            <h5 class="card-title">skill</h5>
-            <p class="card-text">Some quick example text to build on the skill and make up the bulk of the card's
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
               content.
             </p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
           </div>
         </div>
       </div>
       <div class="col-3">
-        <div class="card" style="width: 18rem;">
-          <img src="..." class="card-img-top" alt="...">
+        <div class="card">
+          <img src="https://place-hold.it/100x100" class="card-img-top" alt="">
           <div class="card-body">
-            <h5 class="card-title">skill</h5>
-            <p class="card-text">Some quick example text to build on the skill and make up the bulk of the card's
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
               content.
             </p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
           </div>
         </div>
       </div>
       <div class="col-3">
-        <div class="card" style="width: 18rem;">
-          <img src="..." class="card-img-top" alt="...">
+        <div class="card">
+          <img src="https://place-hold.it/100x100" class="card-img-top" alt="">
           <div class="card-body">
-            <h5 class="card-title">skill</h5>
-            <p class="card-text">Some quick example text to build on the skill and make up the bulk of the card's
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
               content.
             </p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
           </div>
         </div>
       </div>
       <div class="col-3">
-        <div class="card" style="width: 18rem;">
-          <img src="..." class="card-img-top" alt="...">
+        <div class="card">
+          <img src="https://place-hold.it/100x100" class="card-img-top" alt="">
           <div class="card-body">
-            <h5 class="card-title">skill</h5>
-            <p class="card-text">Some quick example text to build on the skill and make up the bulk of the card's
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
               content.
             </p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
           </div>
         </div>
       </div>
     </div>
     <div class="row">
-      <div class="col-3">Skill</div>
-      <div class="col-3">Skill</div>
-      <div class="col-3">Skill</div>
-      <div class="col-3">Skill</div>
+      <div class="col-3">
+        <div class="card">
+          <img src="https://place-hold.it/100x100" class="card-img-top" alt="">
+          <div class="card-body">
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="card">
+          <img src="https://place-hold.it/100x100" class="card-img-top" alt="">
+          <div class="card-body">
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="card">
+          <img src="https://place-hold.it/100x100" class="card-img-top" alt="">
+          <div class="card-body">
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="card">
+          <img src="https://place-hold.it/100x100" class="card-img-top" alt="">
+          <div class="card-body">
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.
+            </p>
+          </div>
+        </div>
+      </div>
     </div>
 
 
@@ -77,5 +105,10 @@
 <style>
   #skills {
     text-align: justify;
+  }
+
+  .card-text {
+    color: black;
+    font-size: 12pt;
   }
 </style>
