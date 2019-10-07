@@ -2,13 +2,17 @@
   <div class="col" id="sidebar">
     <br>
     <div class="alert alert-light" role="alert">
-      Home </div>
+      Home
+    </div>
 
     <div class="alert alert-light" role="alert">
-      Portfolio </div>
+      Portfolio
+    </div>
 
     <div class="alert alert-light" role="alert">
-      Resume </div>
+      Resume
+    </div>
+    <h6>Contact Info:</h6>
   </div>
 </template>
 
