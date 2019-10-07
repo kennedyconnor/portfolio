@@ -1,5 +1,5 @@
 <template>
-  <div class="col-3" id="sidebar">
+  <div class="col" id="sidebar">
     asdfsadf
   </div>
 </template>
@@ -18,6 +18,8 @@
 <style>
   #sidebar {
     height: 100vh;
+    max-width: 18rem;
+    min-width: 18rem;
     background-color: rgb(55, 211, 151);
     color: white;
   }

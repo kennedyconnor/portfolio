@@ -1,7 +1,7 @@
 <template>
   <div class="row" id="home">
     <Sidebar />
-    <div class="col-8 offset-1">
+    <div class="col offset-1">
       <div class="row">
         <AboutMe />
       </div>
