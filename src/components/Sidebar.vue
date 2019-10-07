@@ -1,6 +1,14 @@
 <template>
   <div class="col" id="sidebar">
-    asdfsadf
+    <br>
+    <div class="alert alert-light" role="alert">
+      Home </div>
+
+    <div class="alert alert-light" role="alert">
+      Portfolio </div>
+
+    <div class="alert alert-light" role="alert">
+      Resume </div>
   </div>
 </template>
 
