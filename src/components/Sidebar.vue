@@ -4,7 +4,7 @@
     <button type="button" @click="routeHome()" class="btn btn-secondary btn-lg btn-block">Home</button>
 
     <button type="button" @click="routePortfolio()" class="btn btn-secondary btn-lg btn-block">Portfolio</button>
-    <button type="button" class="btn btn-secondary btn-lg btn-block">Resume</button>
+    <button type="button" @click="routeResume()" class="btn btn-secondary btn-lg btn-block">Resume</button>
     <br />
     <h6>Contact Info:</h6>
   </div>
