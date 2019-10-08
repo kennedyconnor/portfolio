@@ -32,7 +32,7 @@
     height: 100vh;
     max-width: 18rem;
     min-width: 18rem;
-    background-color: rgb(55, 211, 151);
+    background-color: rgb(18, 110, 75);
     color: white;
   }
 </style>

@@ -16,7 +16,7 @@
     -moz-osx-font-smoothing: grayscale;
     text-align: center;
     color: white;
-    background-color: rgb(56, 56, 56)
+    /* background-color: rgb(56, 56, 56) */
   }
 
   #nav {
@@ -25,10 +25,10 @@
 
   #nav a {
     font-weight: bold;
-    color: white;
+    color: black;
   }
 
   #nav a.router-link-exact-active {
-    color: #42b983;
+    color: #236b4a;
   }
 </style>
