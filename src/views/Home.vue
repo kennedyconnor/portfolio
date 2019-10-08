@@ -1,9 +1,9 @@
 <template>
   <div class="row" id="home">
-
     <Sidebar />
     <div class="col offset-1">
       <div class="row">
+        <div class="col-12" id="spacer"></div>
         <AboutMe />
       </div>
       <div class="row">
@@ -29,5 +29,7 @@
   }
 </script>
 <style>
-
+  #spacer {
+    height: 8vh;
+  }
 </style>

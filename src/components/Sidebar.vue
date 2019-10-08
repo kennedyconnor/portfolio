@@ -1,6 +1,6 @@
 <template>
   <div class="col" id="sidebar">
-    <br>
+    <div class="col-12" id="spacer"></div>
     <button type="button" @click="routeHome()" class="btn btn-secondary btn-lg btn-block">Home</button>
 
     <button type="button" @click="routePortfolio()" class="btn btn-secondary btn-lg btn-block">Portfolio</button>
@@ -39,5 +39,9 @@
     min-width: 18rem;
     background-color: rgb(18, 110, 75);
     color: white;
+  }
+
+  #spacer {
+    height: 8vh;
   }
 </style>
