@@ -1,17 +1,11 @@
 <template>
   <div class="col" id="sidebar">
     <br>
-    <div class="alert alert-light" role="alert">
-      Home
-    </div>
+    <button type="button" @click="routeHome()" class="btn btn-secondary btn-lg btn-block">Home</button>
 
-    <div class="alert alert-light" role="alert">
-      Portfolio
-    </div>
-
-    <div class="alert alert-light" role="alert">
-      Resume
-    </div>
+    <button type="button" @click="routePortfolio()" class="btn btn-secondary btn-lg btn-block">Portfolio</button>
+    <button type="button" class="btn btn-secondary btn-lg btn-block">Resume</button>
+    <br />
     <h6>Contact Info:</h6>
   </div>
 </template>
@@ -24,6 +18,17 @@
     name: 'sidebar',
     components: {
 
+    },
+    methods: {
+      routeHome() {
+        this.$router.push({ name: "home" })
+      },
+      routePortfolio() {
+        this.$router.push({ name: "portfolio" })
+      },
+      routeResume() {
+        this.$router.push({ name: "resume" })
+      }
     }
   }
 </script>

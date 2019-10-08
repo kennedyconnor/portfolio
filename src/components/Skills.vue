@@ -1,6 +1,6 @@
 <template>
   <div class="col" id="skills">
-    <h3>skills</h3>
+    <h3>Skills</h3>
     <div class="row">
       <div class="col-3">
 
@@ -207,12 +207,8 @@
     text-align: justify;
   }
 
-  .card-text {
-    color: black;
-    font-size: 12pt;
-  }
 
-  .card {
+  svg {
     max-width: 10rem;
   }
 </style>
