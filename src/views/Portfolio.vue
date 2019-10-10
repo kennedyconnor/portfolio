@@ -1,5 +1,5 @@
 <template>
-  <div class=" row portfolio">
+  <div class="row" id="portfolio">
     <Sidebar />
     <h1>Bortfiolio</h1>
   </div>
