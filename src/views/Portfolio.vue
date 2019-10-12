@@ -1,17 +1,20 @@
 <template>
   <div class="row" id="portfolio">
     <Sidebar />
-    <h1>Bortfiolio</h1>
+    <Projects />
   </div>
 </template>
 <script>
   // @ is an alias to /src
 
   import Sidebar from '@/components/Sidebar.vue'
+  import Projects from '@/components/Projects.vue'
+
   export default {
     name: 'home',
     components: {
       Sidebar,
+      Projects
     }
   }
 </script>
