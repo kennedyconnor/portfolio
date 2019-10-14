@@ -1,7 +1,12 @@
 <template>
   <div class="row" id="portfolio">
     <Sidebar />
-    <Projects />
+    <div class="col">
+      <div class="row">
+        <Spacer />
+        <Projects />
+      </div>
+    </div>
   </div>
 </template>
 <script>
@@ -9,12 +14,14 @@
 
   import Sidebar from '@/components/Sidebar.vue'
   import Projects from '@/components/Projects.vue'
+  import Spacer from '@/components/Spacer.vue'
 
   export default {
     name: 'home',
     components: {
       Sidebar,
-      Projects
+      Projects,
+      Spacer
     }
   }
 </script>
