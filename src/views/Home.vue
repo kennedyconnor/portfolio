@@ -3,7 +3,7 @@
     <Sidebar />
     <div class="col offset-1">
       <div class="row">
-        <div class="col-12" id="spacer"></div>
+        <Spacer />
         <AboutMe />
       </div>
       <div class="row">
@@ -19,17 +19,17 @@
   import Sidebar from '@/components/Sidebar.vue'
   import AboutMe from '@/components/AboutMe.vue'
   import Skills from '@/components/Skills.vue'
+  import Spacer from '@/components/Spacer.vue'
   export default {
     name: 'home',
     components: {
       Sidebar,
       AboutMe,
-      Skills
+      Skills,
+      Spacer
     }
   }
 </script>
 <style>
-  #spacer {
-    height: 8vh;
-  }
+
 </style>
