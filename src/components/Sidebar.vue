@@ -7,9 +7,9 @@
     <button type="button" @click="routeResume()" class="btn btn-secondary btn-lg btn-block">Resume</button>
     <br />
     <h6>Contact Info:</h6>
-    <p>kennedyconnor02@gmail.com</p>
-    <p>https://github.com/kennedyconnor</p>
-    <p>https://www.linkedin.com/in/connor-kennedy-89130b145/</p>
+    <p class="contact-info">kennedyconnor02@gmail.com</p>
+    <p class="contact-info">https://github.com/kennedyconnor</p>
+    <p class="contact-info">https://www.linkedin.com/in/connor-kennedy-89130b145/</p>
   </div>
 </template>
 
@@ -44,7 +44,9 @@
     color: white;
   }
 
-
+  .contact-info {
+    font-size: 10pt;
+  }
 
   #spacer {
     height: 8vh;
