@@ -7,6 +7,9 @@
     <button type="button" @click="routeResume()" class="btn btn-secondary btn-lg btn-block">Resume</button>
     <br />
     <h6>Contact Info:</h6>
+    <p>kennedyconnor02@gmail.com</p>
+    <p>https://github.com/kennedyconnor</p>
+    <p>https://www.linkedin.com/in/connor-kennedy-89130b145/</p>
   </div>
 </template>
 
@@ -40,6 +43,8 @@
     background-color: rgb(18, 110, 75);
     color: white;
   }
+
+
 
   #spacer {
     height: 8vh;

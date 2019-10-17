@@ -40,8 +40,8 @@
         <div class="card project-link" style="width: 18rem;">
           <img class="card-img-top" src="" alt="Card image cap">
           <div class="card-body">
-            <h5 class="card-title">Project Name</h5>
-            <p class="card-text">Description of project
+            <h5 class="card-title">Peasant's Quest: A Text Adventure</h5>
+            <p class="card-text">A text adventure reimagining of classic adventure game, Peasant's Quest.
             </p>
             <a href="#" class="btn btn-primary">Go somewhere</a>
           </div>
